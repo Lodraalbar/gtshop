@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 3rem;
+  color: black;
+  margin-left: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: #0799fa;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: 10px;
+  align-items: center;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 19px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.containernya {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.produk {
+  width: 100%;
+  height: 4900px;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.tulisanjudul {
+  width: 100%;
+  margin-bottom: -20px;
+  margin-top: 80px;
+}
+
+.tulisanjudul p {
+  text-align: center;
+  font-size: 43px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.kotakproduk {
+  width: 46%;
+  height: 250px;
+  background-color: white;
+  margin-top: 10px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.431);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.kotakproduk:hover {
+  background-color: rgb(217, 215, 215);
+}
+
+.kotakproduk img {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom: 3px solid #333;
+}
+
+.namaproduk {
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+.hargaproduk {
+  width: 100%;
+  text-align: center;
+  margin-top: -10px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.kotakproduk a {
+  width: 30%;
+}
+
+.butn {
+  background-color: #0799fa;
+  font-size: 19px;
+  border-radius: 9px;
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: px;
+}
+
+.butn:hover {
+  background-color: #5cbcfb;
+  font-size: 19px;
+  border-radius: 9px;
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.logotoko {
+  width: 100%;
+}
+
+.logotoko p {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #0799fa;
+  font-size: 60px;
+  margin-bottom: -80;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.nextpage {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.nextpage ul {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  background-color: white;
+  padding: 8px;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.731);
+}
+
+.nextpage ul li a {
+  font-size: 20px;
+  color: black;
+}
+
+.nextpage .garisbawah {
+  border-bottom: 4px solid #0799fa;
+}
+
+.nextpage ul li a:hover {
+  text-decoration: none;
+  color: #0799fa;
+}
+
+.footer {
+  background-color: #333;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.footer .tulisanfooter {
+  text-align: center;
+  font-size: 17px;
+  padding: 8px;
+  color: rgba(255, 255, 255, 0.819);
+  text-decoration: none;
+}
+
+.footer a {
+  color: rgba(255, 3, 112, 0.819);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: rgba(247, 92, 159, 0.819);
+}
+
+@media (min-width: 800px) {
+  .containernya {
+    width: 100%;
+    height: auto;
+  }
+
+  .produk {
+    width: 100%;
+    height: 2000px;
+  }
+
+  .kotakproduk {
+    width: 15%;
+    height: 280px;
+  }
+
+  .footer {
+    background-color: #333;
+    width: 100%;
+  }
+
+  nav ul {
+    width: 30%;
+  }
+
+  .nextpage ul {
+    width: 30%;
+  }
+
+  .kotakproduk img {
+    height: 180px;
+  }
+
+  .hargaproduk {
+    margin-top: -10px;
+    margin-bottom: -3px;
+  }
+
+  .butn {
+    margin-bottom: 2px;
+  }
+
+  .butn:hover {
+    margin-bottom: 2px;
+  }
+
+  .namaproduk {
+    font-size: 15px;
+  }
+}
